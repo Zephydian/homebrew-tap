@@ -1,6 +1,6 @@
 cask "zephydian" do
-  version "0.9.1"
-  sha256 "017836b4b9e39b90d6585f87d19a434222a3e9a294738befee2f6393148ba84c"
+  version "0.9.2"
+  sha256 "58138478eb739a53c482f7f0f0e340a1d078706a7a0e29565c5360e4c100541d"
 
   url "https://github.com/ahmastan/zephydian/releases/download/v#{version}/Zephydian-#{version}.zip"
   name "Zephydian"
