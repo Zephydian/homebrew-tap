@@ -1,12 +1,14 @@
-# ahmastan/homebrew-tap
+# zephydian/homebrew-tap
 
-Homebrew casks for [Zephydian](https://github.com/ahmastan/zephydian) and [Surabar](https://github.com/ahmastan/surabar).
+Homebrew casks for the apps made by [Zephydian](https://zephydian.com): [Zephdeck](https://zephydian.com/zephdeck) (formerly Zephydian) and [Surabar](https://github.com/ahmastan/surabar).
 
 ```sh
-brew install ahmastan/tap/zephydian
-brew install --cask ahmastan/tap/surabar
+brew install zephydian/tap/zephdeck
+brew install --cask zephydian/tap/surabar
 ```
 
-After the first install, plain names work: `brew upgrade zephydian`, `brew uninstall --zap surabar`.
+After the first install, plain names work: `brew upgrade zephdeck`, `brew uninstall --zap surabar`.
 
-The Zephydian cask is updated automatically when a new Zephydian release is published. The Surabar cask is updated by hand with each release; Surabar also updates itself.
+Installed Zephydian before it became Zephdeck? `brew update` and `brew upgrade --cask zephdeck` follow the new name (`cask_renames.json`). If Homebrew says the cask isn't trusted, run the `brew trust` command it suggests first.
+
+The Zephdeck cask is updated automatically when a new Zephdeck release is published. The Surabar cask is updated by hand with each release; Surabar also updates itself.
