@@ -1,6 +1,6 @@
 # zephydian/homebrew-tap
 
-Homebrew casks for the apps made by [Zephydian](https://zephydian.com): [Zephdeck](https://zephydian.com/zephdeck) (formerly Zephydian) and [Surabar](https://github.com/ahmastan/surabar).
+Homebrew casks for [Zephdeck](https://zephydian.com/zephdeck) (formerly Zephydian), made by [Zephydian](https://zephydian.com), and for [Surabar](https://github.com/ahmastan/surabar).
 
 ```sh
 brew install zephydian/tap/zephdeck
